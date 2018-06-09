@@ -13,4 +13,7 @@
         * [elementUI 表格分页多选记忆功能](elementUI表格分页多选记忆功能.md)
         * [elementUI表格展开一行](elementUI表格展开一行.md)
 * [掘金冴羽学习笔记](掘金冴羽笔记.md)
-    * [call](call.md)
+    * [模拟call](模拟call.md)
+    * [模拟bind](模拟bind.md)
+* [git](git.md)
+    * [git常用命令](git常用命令.md)
