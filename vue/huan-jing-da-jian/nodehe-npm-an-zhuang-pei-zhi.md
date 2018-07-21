@@ -14,7 +14,7 @@
 
 ```
 
-查看 node 版本
+查看 node 版本  
 
 node -v
 
