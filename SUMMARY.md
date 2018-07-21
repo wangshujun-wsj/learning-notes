@@ -21,4 +21,5 @@
     * [this.$router.push 内打开新窗口](vue/vuegong-zuo-xiang-mu-bi-ji/thisrouterpush-nei-da-kai-xin-chuang-kou.md)
     * [java修改上传图片的权限](vue/vuegong-zuo-xiang-mu-bi-ji/javaxiu-gai-shang-chuan-tu-pian-de-quan-xian.md)
     * [兼容ie11](vue/vuegong-zuo-xiang-mu-bi-ji/jian-rong-ie11.md)
+    * [生成二维码](vue/vuegong-zuo-xiang-mu-bi-ji/sheng-cheng-er-wei-ma.md)
 
