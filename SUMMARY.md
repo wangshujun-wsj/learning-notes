@@ -27,4 +27,5 @@
     * [axios与springmvc](vue/axios/axiosyu-springmvc.md)
 * [掘金冴羽学习笔记](jue-jin-hu-yu-xue-xi-bi-ji.md)
   * 模拟call
+  * [模拟bind](jue-jin-hu-yu-xue-xi-bi-ji/mo-ni-bind.md)
 
