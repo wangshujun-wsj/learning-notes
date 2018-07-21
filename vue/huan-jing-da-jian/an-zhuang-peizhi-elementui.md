@@ -9,7 +9,7 @@ i 是 install的缩写
 -S  --save的缩写,是把此依赖配置到当前目录的package.json中
 ~~~
 
-![](images/screenshot_1528104271475.png)
+![](/assets/screenshot_1528104271475.png)
 
 # 配置方式一(完整引入)
 打开src/main.js 添加
@@ -18,7 +18,7 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 Vue.use(ElementUI)
 ~~~
-![](images/screenshot_1528104347689.png)
+![](/assets/screenshot_1528104347689.png)
 
 这种配置方式是一次全部加载elementUI组件,使得首页加载数据过大,elementUI提供按需引入
 # 配置方式二(按需引入)
