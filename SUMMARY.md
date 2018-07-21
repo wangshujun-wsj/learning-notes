@@ -13,4 +13,6 @@
   * [vue基础入门](vue/vueji-chu-ru-men.md)
   * [vue-router介绍](vue/vue-routerjie-shao.md)
   * [vuex](vue/vuex.md)
+  * [vue工作项目笔记](vue/vuegong-zuo-xiang-mu-bi-ji.md)
+    * [elementUI 表格分页多选记忆功能](vue/vuegong-zuo-xiang-mu-bi-ji/elementui-biao-ge-fen-ye-duo-xuan-ji-yi-gong-neng.md)
 
