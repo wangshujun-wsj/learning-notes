@@ -9,4 +9,5 @@
     * [安装配置elementUI](vue/huan-jing-da-jian/an-zhuang-peizhi-elementui.md)
     * [vuex安装配置](vue/huan-jing-da-jian/vuexan-zhuang-pei-zhi.md)
     * [axios安装配置](vue/huan-jing-da-jian/axiosan-zhuang-pei-zhi.md)
+    * [main.js](vue/huan-jing-da-jian/mainjs.md)
 
