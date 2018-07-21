@@ -12,4 +12,5 @@
     * [main.js](vue/huan-jing-da-jian/mainjs.md)
   * [vue基础入门](vue/vueji-chu-ru-men.md)
   * [vue-router介绍](vue/vue-routerjie-shao.md)
+  * [vuex](vue/vuex.md)
 
