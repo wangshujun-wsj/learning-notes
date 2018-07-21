@@ -19,4 +19,5 @@
     * [keepAlive](vue/vuegong-zuo-xiang-mu-bi-ji/keepalive.md)
     * [vue整合ckeditor5](vue/vuegong-zuo-xiang-mu-bi-ji/vuezheng-he-ckeditor5.md)
     * [this.$router.push 内打开新窗口](vue/vuegong-zuo-xiang-mu-bi-ji/thisrouterpush-nei-da-kai-xin-chuang-kou.md)
+    * [java修改上传图片的权限](vue/vuegong-zuo-xiang-mu-bi-ji/javaxiu-gai-shang-chuan-tu-pian-de-quan-xian.md)
 
