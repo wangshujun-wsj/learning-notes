@@ -17,4 +17,5 @@
     * [elementUI 表格分页多选记忆功能](vue/vuegong-zuo-xiang-mu-bi-ji/elementui-biao-ge-fen-ye-duo-xuan-ji-yi-gong-neng.md)
     * [elementUI表格展开一行](vue/vuegong-zuo-xiang-mu-bi-ji/elementuibiao-ge-zhan-kai-yi-xing.md)
     * [keepAlive](vue/vuegong-zuo-xiang-mu-bi-ji/keepalive.md)
+    * [vue整合ckeditor5](vue/vuegong-zuo-xiang-mu-bi-ji/vuezheng-he-ckeditor5.md)
 
