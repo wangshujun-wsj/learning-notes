@@ -18,4 +18,5 @@
     * [elementUI表格展开一行](vue/vuegong-zuo-xiang-mu-bi-ji/elementuibiao-ge-zhan-kai-yi-xing.md)
     * [keepAlive](vue/vuegong-zuo-xiang-mu-bi-ji/keepalive.md)
     * [vue整合ckeditor5](vue/vuegong-zuo-xiang-mu-bi-ji/vuezheng-he-ckeditor5.md)
+    * [this.$router.push 内打开新窗口](vue/vuegong-zuo-xiang-mu-bi-ji/thisrouterpush-nei-da-kai-xin-chuang-kou.md)
 
