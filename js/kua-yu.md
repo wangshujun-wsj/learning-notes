@@ -11,3 +11,4 @@ http://store.company.com:81/dir/etc.html  不同端口 ( 81和80)
 http://news.company.com/dir/other.html 不同域名 ( news和store )
 
 
+
