@@ -18,6 +18,9 @@ IE:
 * 端口：IE 未将端口号加入到同源策略的组成部分之中，因此 http://company.com:81/index.html 和http://company.com/index.html  属于同源并且不受任何限制。
 
 
+1. jsonp   只能在get请求上
+2. CORS        http://www.ruanyifeng.com/blog/2016/04/cors.html
+3. 代理
 
 
 
