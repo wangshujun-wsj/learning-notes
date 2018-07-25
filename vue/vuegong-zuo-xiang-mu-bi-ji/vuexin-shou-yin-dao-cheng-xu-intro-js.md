@@ -20,8 +20,23 @@
 ```
   import introJs from 'intro.js'
   
-  introJs().setOptions({'prevLabel':'&larr; 上一步','nextLabel':'下一步 &rarr;','skipLabel':'跳过','doneLabel':'完成'}).start();
-　introJs().addHints();
+        let intro = introJs();
+        intro.setOptions({'prevLabel':'&larr; 上一步','nextLabel':'下一步 &rarr;','skipLabel':'跳过','doneLabel':'完成'}).start();
+
+        intro.onchange(function(targetElement) {
+          console.log("new step");
+        });
+        intro.onexit(function() {
+          console.log("exit of introduction");
+        });
+        intro.oncomplete(function() {
+          alert("end of introduction");
+        });
+        intro.onbeforeexit(function() {
+          console.log("on before exit")
+          // returning false means don't exit the intro
+          return false;
+        });
 
 HTML 里面使用
 <div data-step="1" data-intro='快速测评可以使用' ></div>
