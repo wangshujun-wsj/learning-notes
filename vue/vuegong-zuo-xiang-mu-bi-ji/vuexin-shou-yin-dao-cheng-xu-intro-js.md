@@ -1,5 +1,6 @@
 # 官方文档
 [官方文档](https://introjs.com/docs/)
+[git源码地址](https://github.com/usablica/intro.js/)
 
 # 基本使用
 
