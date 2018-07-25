@@ -8,6 +8,7 @@ npm install intro.js --save
 
 ```
 ## 配置
+
 ```
 import '../node_modules/intro.js/introjs.css'
 ```
