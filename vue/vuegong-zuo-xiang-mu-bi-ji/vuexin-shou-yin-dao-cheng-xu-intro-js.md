@@ -11,6 +11,7 @@ npm install intro.js --save
 
 ```
 import '../node_modules/intro.js/introjs.css'
+
 ```
 
 
