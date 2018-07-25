@@ -46,7 +46,6 @@ HTML 里面使用
 ## 基本效果
 ![](/assets/screenshot_1528166745823.png)
 
-# 高级功能
 
 [官方API](https://introjs.com/docs/intro/api/#api)
 
