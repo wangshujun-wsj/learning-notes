@@ -20,8 +20,10 @@
 ```
   import introJs from 'intro.js'
   
+  写在methods的方法中,mounted()生命周期调用即可
         let intro = introJs();
         intro.setOptions({'prevLabel':'&larr; 上一步','nextLabel':'下一步 &rarr;','skipLabel':'跳过','doneLabel':'完成'}).start();
+
 
         intro.onchange(function(targetElement) {
           console.log("new step");
@@ -32,11 +34,11 @@
         intro.oncomplete(function() {
           alert("end of introduction");
         });
-        intro.onbeforeexit(function() {
+        /*intro.onbeforeexit(function() {
           console.log("on before exit")
           // returning false means don't exit the intro
           return false;
-        });
+        });*/
 
 HTML 里面使用
 <div data-step="1" data-intro='快速测评可以使用' ></div>
