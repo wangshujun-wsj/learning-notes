@@ -24,7 +24,7 @@
         let intro = introJs();
         intro.setOptions({'prevLabel':'&larr; 上一步','nextLabel':'下一步 &rarr;','skipLabel':'跳过','doneLabel':'完成'}).start();
 
-
+其他api
         intro.onchange(function(targetElement) {
           console.log("new step");
         });
