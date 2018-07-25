@@ -22,7 +22,8 @@
 HTML 里面使用
 <div data-step="1" data-intro='快速测评可以使用' ></div>
 ```
-
+## 基本效果
+![](/assets/screenshot_1528166745823.png)
 
 
 
