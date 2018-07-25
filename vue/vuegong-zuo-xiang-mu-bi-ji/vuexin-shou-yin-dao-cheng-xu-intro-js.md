@@ -28,17 +28,17 @@
         intro.onchange(function(targetElement) {
           console.log("new step");
         });
-        intro.onexit(function() {
-          console.log("exit of introduction");
-        });
         intro.oncomplete(function() {
           alert("end of introduction");
         });
-        /*intro.onbeforeexit(function() {
+        intro.onbeforeexit(function() {
           console.log("on before exit")
           // returning false means don't exit the intro
-          return false;
-        });*/
+          return true;
+        });
+        intro.onexit(function() {
+          console.log("exit of introduction");
+        });
 
 HTML 里面使用
 <div data-step="1" data-intro='快速测评可以使用' ></div>
