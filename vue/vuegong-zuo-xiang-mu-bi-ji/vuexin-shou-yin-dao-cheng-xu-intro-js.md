@@ -11,7 +11,7 @@
 ```
   import '../node_modules/intro.js/introjs.css'
 ```
-##　使用
+##　在页面使用
 
 ```
   import introJs from 'intro.js'
