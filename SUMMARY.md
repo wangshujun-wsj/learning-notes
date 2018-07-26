@@ -27,7 +27,7 @@
   * [axios](vue/axios.md)
     * [axios与springmvc](vue/axios/axiosyu-springmvc.md)
 * [掘金冴羽学习笔记](jue-jin-hu-yu-xue-xi-bi-ji.md)
-  * 模拟call
+  * [模拟call](jue-jin-hu-yu-xue-xi-bi-ji/mo-ni-call.md)
   * [模拟bind](jue-jin-hu-yu-xue-xi-bi-ji/mo-ni-bind.md)
 * [git](git.md)
   * [git常用命令](git/gitchang-yong-ming-ling.md)
