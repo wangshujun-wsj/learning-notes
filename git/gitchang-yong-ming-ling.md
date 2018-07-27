@@ -32,6 +32,19 @@ git clone <版本库的网址> <本地目录名>
 ```
 git fetch <远程主机名>
 ```
+获取特定分支
+
+```
+git fetch <远程主机名> <分支名>
+
+git fetch origin master
+```
+
+
+## 配置SSH密钥
+查看是否已经有了ssh密钥：cd ~/.ssh
+如果没有密钥则不会有此文件夹，有则备份删除
+
 
 
 
