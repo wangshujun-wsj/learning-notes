@@ -70,5 +70,4 @@ ssh-add id_rsa
 进入C:\Users\【你的用户名】\.ssh  复制id_rsa.pub 里的内容
 
 进入github网站的 settings（右上角最后一个图）选择左侧SSH and GPG keys标签
-进入C:\Users\【你的用户名】\.ssh  复制id_rsa.pub 里的内容
-点击 New SSH key 按钮  
+点击 New SSH key 按钮   将复制的id_rsa.pub 的内容粘贴到key里
