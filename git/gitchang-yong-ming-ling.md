@@ -1,3 +1,5 @@
+[阮一峰git教程](http://www.ruanyifeng.com/blog/2014/06/git_remote.html )
+
 查看用户名和邮箱地址：
 ~~~
 git config user.name
@@ -25,3 +27,11 @@ git clone <版本库的网址>
 ~~~
 git clone <版本库的网址> <本地目录名>
 ~~~
+
+一旦远程主机的版本库有了更新（Git术语叫做commit），需要将这些更新取回本地，这时就要用到git fetch命令。
+```
+git fetch <远程主机名>
+```
+
+
+
