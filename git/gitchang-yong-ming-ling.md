@@ -42,9 +42,27 @@ git fetch origin master
 
 
 ## 配置SSH密钥
-查看是否已经有了ssh密钥：cd ~/.ssh
+1、查看是否已经有了ssh密钥：cd ~/.ssh
 如果没有密钥则不会有此文件夹，有则备份删除
 
+2、直接回车
+```
+Enter a file in which to save the key (/c/Users/you/.ssh/id_rsa):
 
+```
+3、重复输入密码
 
+```
+Enter passphrase (empty for no passphrase): [Type a passphrase]
+Enter same passphrase again: [Type passphrase again]
+```
+4、将SSH密钥添加到ssh-agent
+
+```
+ssh-agent bash
+
+ssh-add id_rsa
+```
+// 图解过程
+![](/assets/JR8WJ7F$M}5E1@}][FFI`37.png)
 
