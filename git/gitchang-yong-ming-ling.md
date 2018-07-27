@@ -1,6 +1,5 @@
 [阮一峰git教程](http://www.ruanyifeng.com/blog/2014/06/git_remote.html )
 
-
 查看用户名和邮箱地址：
 ~~~
 git config user.name
