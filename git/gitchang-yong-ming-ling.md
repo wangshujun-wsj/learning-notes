@@ -46,5 +46,8 @@ git fetch origin master
 如果没有密钥则不会有此文件夹，有则备份删除
 
 
+```
+ssh-keygen -t rsa -b 4096 -C“ your_email@example.com ”
+```
 
-
+![](/assets/JR8WJ7F$M}5E1@}][FFI`37.png)
