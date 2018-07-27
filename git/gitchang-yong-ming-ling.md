@@ -7,7 +7,6 @@ git config user.email
 查看git配置
 
 ```
-
 $git config --lis
 
 ```
