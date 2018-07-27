@@ -4,7 +4,12 @@ git config user.name
 
 git config user.email
 ~~~
+查看git配置
 
+```
+$git config --lis
+
+```
 
 修改用户名和邮箱地址：
 ~~~
