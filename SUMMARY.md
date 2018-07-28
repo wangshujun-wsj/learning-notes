@@ -23,6 +23,7 @@
     * [生成二维码](vue/vuegong-zuo-xiang-mu-bi-ji/sheng-cheng-er-wei-ma.md)
     * [base64图片下载\(兼容IE10\)](vue/vuegong-zuo-xiang-mu-bi-ji/base64tu-pian-xia-8f7d28-jian-rong-ie10.md)
     * [vue新手引导程序intro.js](vue/vuegong-zuo-xiang-mu-bi-ji/vuexin-shou-yin-dao-cheng-xu-intro-js.md)
+    * [vue插件 devtools](vue/vuegong-zuo-xiang-mu-bi-ji/vuecha-jian-devtools.md)
   * [axios](vue/axios.md)
     * [axios与springmvc](vue/axios/axiosyu-springmvc.md)
 * [掘金冴羽学习笔记](jue-jin-hu-yu-xue-xi-bi-ji.md)
