@@ -37,4 +37,5 @@
   * [新手引导页](shi-li-demo/xin-shou-yin-dao-ye.md)
 * [js](js.md)
   * [跨域](js/kua-yu.md)
+  * [for in 和 for of](js/for-in-he-for-of.md)
 

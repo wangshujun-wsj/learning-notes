@@ -1,0 +1,1 @@
+for of 不能循环普通object对象({key:value}) 只能循环可遍历的对象
