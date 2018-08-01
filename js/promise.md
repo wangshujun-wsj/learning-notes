@@ -1,5 +1,6 @@
 [JavaScript Promise迷你书（中文版）](http://liubin.org/promises-book/)
 
+# promise基本用法
 ```
 function getURL(URL) {
     return new Promise(function (resolve, reject) {
