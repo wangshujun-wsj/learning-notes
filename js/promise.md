@@ -1,6 +1,14 @@
 [JavaScript Promise迷你书（中文版）](http://liubin.org/promises-book/)
 
 # promise基本用法
+promise对象拥有几个实例方法， 我们使用这些实例方法来为promise对象创建依赖于promise的具体状态、并且只会被执行一次的回调函数。
+
+为promise对象添加处理方法主要有以下两种
+
+promise对象被 resolve 时的处理(onFulfilled)
+
+promise对象被 reject 时的处理(onRejected)
+![](/assets/promise-onFulfilled_onRejected.png)
 ```
 function getURL(URL) {
     return new Promise(function (resolve, reject) {
@@ -28,6 +36,9 @@ getURL(URL).then(function onFulfilled(value){
 });
 
 ```
+.then() 方法里出现下列两种情况也会进入.catch()方法
+* 发生异常的时候
+* 返回了一个Rejected状态的promise对象
 
 
 
