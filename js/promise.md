@@ -1,3 +1,4 @@
+[BAT前端经典面试问题：史上最最最详细的手写Promise教程](https://juejin.im/post/5b2f02cd5188252b937548ab)
 原文[JavaScript Promise迷你书（中文版）](http://liubin.org/promises-book/)
 
 # promise基本用法
