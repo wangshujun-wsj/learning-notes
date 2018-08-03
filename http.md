@@ -1,7 +1,8 @@
 [tcp、http](https://juejin.im/post/5ad4094e6fb9a028d7011069)
 [图解HTTP 京东](http://item.jd.com/11449491.html)
+[http mdn](https://developer.mozilla.org/zh-CN/docs/Web/HTTP)
 
-
+# HTTP协议
 ## 请求报文的构成
 请求报文是由请求方法、请求 URI、协议版本、可选的请求首部字段和内容实体构成的。
 ![](/assets/ES32`PN$F@HHPTUP$BE8WIM.png)
@@ -28,3 +29,15 @@ OPTIONS：询问支持的方法
 TRACE：追踪路径
 ## 持久连接节省通信量
 HTTP 协议的初始版本中，每进行一次 HTTP 通信就要断开一次 TCP连接。
+![](/assets/%23N756KC6KD6N9F0.png)
+容量很小的文本传输，这样做也没有多大问题,但使用浏览器浏览一个包含多张图片的 HTML页面时，在发送请求访问 HTML页面资源的同时，也会请求该 HTML页面里包含的其他资源。因此，每次的请求都会造成无谓的 TCP 连接建立和断开，增加通信量的开销。
+## 使用 Cookie 的状态管理
+Cookie 会根据从服务器端发送的响应报文内的一个叫做 Set-Cookie 的首部字段信息，通知客户端保存 Cookie。当下次客户端再往该服务器发送请求时，客户端会自动在请求报文中加入 Cookie 值后发送出去。
+服务器端发现客户端发送过来的 Cookie 后，会去检查究竟是从哪一个客户端发来的连接请求，然后对比服务器上的记录，最后得到之前的状态信息。
+
+# http协议报文
+
+
+
+
+
