@@ -28,4 +28,3 @@ OPTIONS：询问支持的方法
 TRACE：追踪路径
 ## 持久连接节省通信量
 HTTP 协议的初始版本中，每进行一次 HTTP 通信就要断开一次 TCP连接。
-![](/assets/%23N756KC6KD6N9DF0.png)
