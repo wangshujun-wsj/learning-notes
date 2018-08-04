@@ -32,6 +32,7 @@
 * [实例demo](shi-li-demo.md)
   * [1](shi-li-demo/1.md)
   * [新手引导页](shi-li-demo/xin-shou-yin-dao-ye.md)
+  * [纯css3下划线动画导航菜单](shi-li-demo/chun-css3-xia-hua-xian-dong-hua-dao-hang-cai-dan.md)
 * [js](js.md)
   * [跨域](js/kua-yu.md)
   * [for in 和 for of](js/for-in-he-for-of.md)
