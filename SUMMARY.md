@@ -36,6 +36,8 @@
   * [纯css3从中间显示下划线动画导航菜单](shi-li-demo/chun-css3-cong-zhong-jian-xian-shi-xia-hua-xian-dong-hua-dao-hang-cai-dan.md)
   * [css显示密码](shi-li-demo/cssxian-shi-mi-ma.md)
   * [倒计时时钟](shi-li-demo/dao-ji-shi-shi-zhong.md)
+  * [星星评分](shi-li-demo/xing-xing-ping-fen.md)
+  * [按钮悬停效果](shi-li-demo/an-niu-xuan-ting-xiao-guo.md)
 * [js](js.md)
   * [跨域](js/kua-yu.md)
   * [for in 和 for of](js/for-in-he-for-of.md)
