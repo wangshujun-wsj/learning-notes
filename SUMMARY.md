@@ -40,8 +40,9 @@
   * [掘金冴羽学习笔记](jue-jin-hu-yu-xue-xi-bi-ji.md)
     * [模拟call](jue-jin-hu-yu-xue-xi-bi-ji/mo-ni-call.md)
     * [模拟bind](jue-jin-hu-yu-xue-xi-bi-ji/mo-ni-bind.md)
+    * [闭包](js/bi-bao.md)
     * [1 作用域](js/zuo-yong-yu.md)
     * [2 执行上下文栈](jue-jin-hu-yu-xue-xi-bi-ji/zhi-xing-shang-xia-wen-zhan.md)
-    * [闭包](js/bi-bao.md)
+    * [3 变量对象](jue-jin-hu-yu-xue-xi-bi-ji/3-bian-liang-dui-xiang.md)
 * [http](http.md)
 
