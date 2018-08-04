@@ -30,4 +30,64 @@
     * 由名称和对应值（undefined）组成一个变量对象的属性被创建；
     * 如果变量名称跟已经声明的形式参数或函数相同，则变量声明不会干扰已经存在的这类属性
 
+例如
+
+```
+function foo(a) {
+  var b = 2;
+  function c() {}
+  var d = function() {};
+
+  b = 3;
+
+}
+
+foo(1);
+```
+在进入执行上下文后，这时候的 AO 是：
+
+
+```
+AO = {
+    arguments : {
+        0: 1,
+        length: 1
+    },
+    a: 1,
+    b: undefined,
+    c: reference to function c(){},
+    d: undefined
+}
+```
+
+### 代码执行
+
+在代码执行阶段，会顺序执行代码，根据代码，修改变量对象的值
+
+还是上面的例子，当代码执行完后，这时候的 AO 是：
+
+```
+AO = {
+    arguments : {
+        0: 1,
+        length: 1
+    },
+    a: 1,
+    b: 3,
+    c: reference to function c(){},
+    d: reference to FunctionExpression "d"
+}
+
+```
+到这里变量对象的创建过程就介绍完了，让我们简洁的总结我们上述所说：
+
+1. 全局上下文的变量对象初始化是全局对象
+
+2. 函数上下文的变量对象初始化只包括 Arguments 对象
+
+3. 在进入执行上下文时会给变量对象添加形参、函数声明、变量声明等初始的属性值
+
+4. 在代码执行阶段，会再次修改变量对象的属性值
+
+
 
