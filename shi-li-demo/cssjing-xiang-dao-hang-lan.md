@@ -1,5 +1,5 @@
 # 效果
-![](/assets/css镜像导航栏.gif)
+![](/assets/css实例/css镜像导航栏.gif)
 
 ```
 <!doctype html>
