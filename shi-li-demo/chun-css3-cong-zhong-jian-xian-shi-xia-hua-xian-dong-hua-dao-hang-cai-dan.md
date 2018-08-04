@@ -1,4 +1,5 @@
-
+# 效果
+![](/assets/css实例/纯css3从中间显示下划线动画导航菜单.gif)
 
 ```
 <!doctype html>
