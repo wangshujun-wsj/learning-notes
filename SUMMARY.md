@@ -38,6 +38,7 @@
   * [倒计时时钟](shi-li-demo/dao-ji-shi-shi-zhong.md)
   * [星星评分](shi-li-demo/xing-xing-ping-fen.md)
   * [按钮悬停效果](shi-li-demo/an-niu-xuan-ting-xiao-guo.md)
+  * [步骤条](shi-li-demo/bu-zou-tiao.md)
 * [js](js.md)
   * [跨域](js/kua-yu.md)
   * [for in 和 for of](js/for-in-he-for-of.md)
