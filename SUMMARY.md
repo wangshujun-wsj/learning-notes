@@ -40,6 +40,8 @@
   * [按钮悬停效果](shi-li-demo/an-niu-xuan-ting-xiao-guo.md)
   * [步骤条](shi-li-demo/bu-zou-tiao.md)
   * [css动画按钮](shi-li-demo/cssdong-hua-an-niu.md)
+  * [input标题获得焦点上移](shi-li-demo/inputbiao-ti-huo-de-jiao-dian-shang-yi.md)
+  * [css图片放大](shi-li-demo/csstu-pian-fang-da.md)
 * [js](js.md)
   * [跨域](js/kua-yu.md)
   * [for in 和 for of](js/for-in-he-for-of.md)
