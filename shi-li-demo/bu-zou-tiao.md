@@ -1,4 +1,6 @@
+# 效果
 
+![](/assets/css实例/步骤条.gif)
 
 ```
 <!doctype html>
