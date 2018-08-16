@@ -23,12 +23,14 @@ new Vue({
 简单使用:
 ~~~
  .then 里是后台返回结果
- .catch 里是网络错误或后台服务器出bug等等
+ .catch 里是网络错误或后台服务器出bug.then方法里出错等等
 
 
 get方式
 this.$axios.get('/user', {
-      数据
+      params: {
+        数据
+     }
   })
   .then(function (response) {
   })
@@ -36,11 +38,7 @@ this.$axios.get('/user', {
   });
 
 post方式
-this.$axios.post('/user' , {
-  params: {
-    数据对象(此处根据情况)
-  }
-})
+this.$axios.post('/user' , user)
   .then(function (response) {
   })
   .catch(function (error) {
