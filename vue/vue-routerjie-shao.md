@@ -39,9 +39,10 @@ html使用
           path: '/hello/2'
         });
 ~~~
-可在动态路由对应的页面获取 :id 的参数
-获取URL中/hello/:id 中的id的结果,使用this.$route.params.id获取
-:id是自定义的,用于获取时使用  '/hello/:name'  使用this.$route.params.name获取
+可在动态路由对应的页面获取 :id 的参数 :id是自定义的,用于获取时使用 
+获取URL中
+/hello/:id 中的id的结果,使用this.$route.params.id获取
+'/hello/:name'  使用this.$route.params.name获取
 
 # 嵌套路由
 router/index.js 中配置
