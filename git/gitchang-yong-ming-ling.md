@@ -71,3 +71,6 @@ ssh-add id_rsa
 
 进入github网站的 settings（右上角最后一个图）选择左侧SSH and GPG keys标签
 点击 New SSH key 按钮   将复制的id_rsa.pub 的内容粘贴到key里
+
+# idea 切换SVN和git
+修改项目下.idea目录的vcs.xml配置文件中的<mapping directory="" vcs="Git" /> git表示使用git,svn表示使用svn
