@@ -85,6 +85,34 @@ console.log(student);
 ## 寄生组合模式
 
 
+```
+function obj(o) {
+    function F() {};
+    F.prototype = o;
+    return new F();
+}
+function People(name,age) {
+    this.name = name;
+    this.age = age;
+    // 仅在第一次调用的初始化
+    if (typeof this.say !== 'function') {
+        People.prototype.say = function() {
+            console.log("haha");
+        }
+    }
+}
+function Student(name, age) {
+    People.call(this,name,age);
+}
+var f= obj(People.prototype);
+f.constructor = Student;
+Student.prototype = f;
+var student = new Student("xiaoming", 20);
+student.say();
+```
+
+
+
 
 
 
