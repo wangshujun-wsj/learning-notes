@@ -110,7 +110,9 @@ Student.prototype = f;
 var student = new Student("xiaoming", 20);
 student.say();
 ```
-
+## 优缺点
+优点: 最佳
+缺点: 实现较为复杂
 
 
 
