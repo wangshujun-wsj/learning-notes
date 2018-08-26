@@ -57,5 +57,6 @@
     * [3 变量对象](jue-jin-hu-yu-xue-xi-bi-ji/3-bian-liang-dui-xiang.md)
     * [4 作用域链](jue-jin-hu-yu-xue-xi-bi-ji/4-zuo-yong-yu-lian.md)
     * [5 this](jue-jin-hu-yu-xue-xi-bi-ji/5-this.md)
+  * [面向对象](js/mian-xiang-dui-xiang.md)
 * [http](http.md)
 
