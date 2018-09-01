@@ -1,6 +1,6 @@
 [参考](https://blog.csdn.net/Vir_czz/article/details/59580925)
 
-~~~
+```
 //判断浏览器类型
 function isBrowser() {
   var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
@@ -75,11 +75,11 @@ const downloadBase = {
     return new Blob([uInt8Array], {type: contentType});
   }
 };
-~~~
+```
 
 使用
 
-~~~
+```
 	// isBrowser 和 downloadBase 是通用js文件里定义的
 	download() {
         var oQrcode = document.querySelector('#qrcode img');
@@ -95,4 +95,4 @@ const downloadBase = {
           downloadBase.downloadFile(name, url);
         }
       },
-~~~
+```
