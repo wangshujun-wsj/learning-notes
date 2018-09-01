@@ -27,6 +27,7 @@
   * [axios](vue/axios.md)
     * [axios与springmvc](vue/axios/axiosyu-springmvc.md)
   * [vue 原理学习源码学习](vue/vue-yuan-li-xue-xi-yuan-ma-xue-xi.md)
+    * [js正则处理v-bind和语法](vue/vue-yuan-li-xue-xi-yuan-ma-xue-xi/jszheng-ze-chu-li-v-bind-he-yu-fa.md)
 * [git](git.md)
   * [git常用命令](git/gitchang-yong-ming-ling.md)
 * [正则表达式](zheng-ze-biao-da-shi.md)
