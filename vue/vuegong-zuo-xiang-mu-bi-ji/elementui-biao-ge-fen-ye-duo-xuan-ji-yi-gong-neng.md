@@ -20,7 +20,8 @@
 
 ## 主要方法
 翻页方法
-~~~
+
+```
 	this.multipleSelection = [];
         let len = this.allSelecteds.length;
         // 需要在表格el-table上添加 ref="multipleTable"
@@ -37,9 +38,9 @@
             }
           }
         }, 100);
-~~~
+```
 select事件触发的方法
-~~~
+```
 // 当用户手动勾选数据行的 Checkbox 时触发的事件
       handleSelection(selection, row) {
         if (this.checkScore(row)) {
@@ -49,9 +50,9 @@ select事件触发的方法
         }
         return false;
       },
-~~~
+```
 select-all 事件触发的方法
-~~~
+```
 // 当用户手动勾选全选 Checkbox 时触发的事件
       handleSelectionAll(selection) {
         for (let i = selection.length - 1; i >= 0; i--) {
@@ -61,10 +62,10 @@ select-all 事件触发的方法
         }
         this.select(selection);
       },
-~~~
+```
 
 select 事件和select-all 事件公有部分
-~~~
+```
 select(selection, row) {
         let isSave = false;
         let selectionLength = selection.length;
@@ -102,9 +103,9 @@ select(selection, row) {
         }
       },
      
-~~~
+```
 删除或添加全部选中的试题
-~~~
+```
  // 删除或添加全部选中的试题
       delOrSaveSeleted(row, isSave) {
         let len = this.allSelecteds.length;
@@ -120,6 +121,6 @@ select(selection, row) {
           this.allSelecteds.push(row);
         }
       },
-~~~
+```
 
 参考[https://blog.csdn.net/github_36327470/article/details/72652518](https://blog.csdn.net/github_36327470/article/details/72652518)
