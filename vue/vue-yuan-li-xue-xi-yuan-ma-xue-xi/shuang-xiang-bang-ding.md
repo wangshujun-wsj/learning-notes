@@ -1,3 +1,7 @@
+# 效果
+![](/assets/vue/myvue.gif)
+
+
 ## html
 
 ```
