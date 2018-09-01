@@ -39,7 +39,8 @@ git fetch <远程主机名> <分支名>
 
 git fetch origin master
 ```
-
+### 取回远程仓库的变化，并与本地分支合并
+$ git pull [remote] [branch]
 
 ## 配置SSH密钥
 1、查看是否已经有了ssh密钥：cd ~/.ssh
