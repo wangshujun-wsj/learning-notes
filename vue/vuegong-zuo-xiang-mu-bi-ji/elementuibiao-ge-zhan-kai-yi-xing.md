@@ -1,5 +1,5 @@
 [CSDN原文](https://blog.csdn.net/xuxu_qkz/article/details/80166442)
-~~~
+```
 <el-table
      :data="tableData" 
      v-loading="loading"   
@@ -56,4 +56,4 @@ methods:{
       return row.id;
     },
 }
-~~~
+```
