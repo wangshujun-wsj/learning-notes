@@ -7,16 +7,16 @@
   [官网路由懒加载](https://router.vuejs.org/zh/guide/advanced/lazy-loading.html#%E6%8A%8A%E7%BB%84%E4%BB%B6%E6%8C%89%E7%BB%84%E5%88%86%E5%9D%97)
 # 动态路由
 router/index.js 中配置
-~~~
+```
       {
       // id 为自定义,可根据自己的情况更改 如 '/hello/:name
         path: '/hello/:id',
         component: () =>
           import('@/components/router/hello')
       }
-~~~
+```
 html使用
-~~~
+```
       <ul>
         <li>
         <!-- "/hello/1" 会匹配 index.js中的 '/hello/:id' -->
@@ -32,13 +32,13 @@ html使用
           <router-link to="/hello/4">Go to hello4</router-link>
         </li>
       </ul>
-~~~
+```
 或者在方法中使用
-~~~
+```
 	this.$router.push({
           path: '/hello/2'
         });
-~~~
+```
 可在动态路由对应的页面获取 :id 的参数 :id是自定义的,用于获取时使用 
 获取URL中
 /hello/:id 中的id的结果,使用this.$route.params.id获取
@@ -48,7 +48,7 @@ html使用
 router/index.js 中配置
 在需要使用嵌套子路由的路由里使用 children,将子路由配置在children
 子路由会渲染在父路由html中的router-view的位置
-~~~
+```
 {
     path: '/router',
     component: () =>
@@ -63,7 +63,7 @@ router/index.js 中配置
       }
     ]
   }
-~~~
+```
 父路由页面html中要渲染子页面的地方配置router-view
 ![](/assets/screenshot_1528165407785.png)
 展示渲染结果
@@ -72,22 +72,22 @@ router/index.js 中配置
 # router-link路由
 
 HTML使用
-~~~
+```
 <router-link to="/hello">Go to hello4</router-link>
-~~~
+```
 会跳转到router/index.js中的 path为 '/hello' 的路由
 router-link默认解析为a标签
 
 # 方法中使用路由
 除了使用 <router-link> 创建 a 标签来定义导航链接，我们还可以借助 router 的实例方法，通过编写代码来实现。
-~~~
+```
 router.push(location, onComplete?, onAbort?)；
 // 项目中使用
 this.$router.push({
     path: '/routerQuery',
     query: {id: id} // 路由传参,后边有介绍
 });
-~~~
+```
 **注意**：在 Vue 实例内部，你可以通过 $router 访问路由实例。因此你可以调用 this.$router.push。
 
 | 声明式   | 编程式   |
@@ -105,28 +105,28 @@ this.$router.push({
 # 路由传参
 第一种路由传参 (query) 参数显示在url中,使用this.$route.query 获取传参对象
 例如 : 
-~~~
+```
 	this.$router.push({
             path: '/routerQuery',
             query: {id: id, val: this.banner}
           });
           // 对应页面使用 this.$route.query.id 获取传的 id值
-~~~
+```
 第二种路由传参  (params需要在路由中配置name名称),params 不会将参数显示在url中,刷新页面值丢失,name对应 index.js中的路由 name值
 使用this.$route.params 获取传参对象
 例如 : 
-~~~
+```
 	this.$router.push({
             name: 'routerQuery',
             params: {id: id, val: this.banner}
           });
           // 对应页面使用 this.$route.params.id 获取传的 id值
-~~~
+```
 动态路由的 :id 也是传参
 **query或 params在 router-link和 this.$router.push 中使用方式一致**
 
 router-link 中使用 query或 params进行传参
-~~~
+```
      // 第一种传参 query
      <h2>
         <!-- router-link渲染为a标签 -->
@@ -143,14 +143,14 @@ router-link 中使用 query或 params进行传参
         <router-link :to="{name:'routerParams',params: {id:1,val:'router-link参数' }}">
           router-link params传参路由</router-link>
       </h2>
-~~~
+```
 
 # 匹配优先级
 有时候，同一个路径可以匹配多个路由，此时，匹配的优先级就按照路由的定义顺序：谁先定义的，谁的优先级就最高。
 
 # 完整router/index.js
 
-~~~
+```
 import Vue from 'vue';
 import Router from 'vue-router';
 
@@ -204,4 +204,4 @@ export default new Router({
 })
 
 
-~~~
+```
