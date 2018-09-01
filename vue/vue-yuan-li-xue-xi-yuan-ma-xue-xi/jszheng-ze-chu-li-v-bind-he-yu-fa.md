@@ -1,3 +1,5 @@
+需要正则解析的div
+
 ```
     <div id="app">
         <span v-bind:title="message" v-bind:dat-myXX="message" v-bind:data-myXX="pData">
@@ -37,9 +39,10 @@
             // 里面变量两边空格不一致会认为是两个,就要等到循环
             // 到它的位置才会替换)
             html = html.replace(new RegExp(RegExp.$1,'g'), value);
+            // g全局
             regex.lastIndex -= len - value.length;
           }
-          regex = /(v\-bind:([\w\-]+)=\"([\w]+)\")/g;
+          regex = /(v-bind:(\w+)=\"(\w+)\")/g;
           while (regex.exec(html)) {
             var value = RegExp.$2+"=\""+data[RegExp.$3]+"\"";
             var len = RegExp.$1.length;
