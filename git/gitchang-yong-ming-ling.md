@@ -45,6 +45,12 @@ git fetch origin master
 ```
 git pull [remote] [branch]
 ```
+### 上传本地指定分支到远程仓库
+
+```
+git push [remote] [branch]
+```
+
 ## 配置SSH密钥
 1、查看是否已经有了ssh密钥：cd ~/.ssh
 如果没有密钥则不会有此文件夹，有则备份删除
