@@ -2,23 +2,23 @@
 [ckeditor5 官网](https://docs.ckeditor.com/ckeditor5/latest/index.html)
 # 安装
 npm 安装ckeditor5   使用的 10.1.0版本
-~~~
+```
 npm install --save @ckeditor/ckeditor5-build-classic
-~~~
+```
 
 # vue 页面使用
 ## html
-~~~
+```
 <textarea id="editor" name="editor" v-model="ruleForm.content"></textarea>
-~~~
+```
 ## 导入
 
-~~~
+```
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
-~~~
+```
 
 ## 初始化使用
-~~~
+```
 
 mounted() {
     let that = this;
@@ -64,10 +64,10 @@ mounted() {
     }
 
   },
-~~~
+```
 ## 提交表单
 this.editor.getData(); 用于获取编辑器内容
-~~~
+```
 // 提交表单
     submitForm(formName) {
         this.ruleForm.content = this.editor.getData();
@@ -85,4 +85,4 @@ this.editor.getData(); 用于获取编辑器内容
           } 
         });
       }
-~~~	
+```
