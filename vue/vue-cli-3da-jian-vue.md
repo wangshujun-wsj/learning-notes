@@ -1,0 +1,24 @@
+# 卸载vue-cli 2.x``
+
+安装vue-cli 3 需要卸载之前的版本
+```
+npm uninstall vue-cli -g
+```
+# 安装vue-cli 3
+
+```
+npm install -g @vue/cli
+```
+# 查看版本
+
+```
+vue -V
+```
+
+# 进入vue 可视化界面
+
+```
+vue ui
+```
+![](/assets/vue-cli3/vue ui 界面.png)
+
