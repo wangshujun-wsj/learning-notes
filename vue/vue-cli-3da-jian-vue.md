@@ -27,3 +27,16 @@ vue ui
 ## 创建新项目
 创建选项卡下选择目录单击创建
 ![](/assets/vue-cli3/创建vue项目.png)
+![](/assets/vue-cli3/创建新项目.png)
+## 配置项目
+选择手动配置项目=>下一步
+![](/assets/vue-cli3/所选插件配置.png)
+![](/assets/vue-cli3/所选插件配置第二步.png)
+![](/assets/vue-cli3/创建完成.png)
+
+等待安装完成即可
+![](/assets/vue-cli3/正在安装依赖.png)
+
+
+
+
