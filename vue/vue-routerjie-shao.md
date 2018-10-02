@@ -199,6 +199,50 @@ app.vue
   }
 }
 ```
+# 路由守卫
+比如登录验证在router/index.js中
+
+例子里面是把路由分成了多个页面
+```
+import Vue from 'vue'
+import Router from 'vue-router'
+// 路由存放页面
+import routes from './router'
+
+Vue.use(Router)
+// 是否登录,值来自后台
+const HAS_LOGIN = true;
+
+const router = new Router({
+  routes
+});
+
+router.beforeEach((to, from, next) => {
+  // 不是登录页面
+  if(to.path !=='/login') {
+    // 已登录
+    if (HAS_LOGIN) {
+      // 放过去
+      next();
+    } else {
+      // 跳转登录页面
+      next({path: '/login'})
+    }
+  } else {
+    // 已登录
+    if (HAS_LOGIN) {
+      // 跳转首页
+      next({path: '/index'});
+    } else {
+      // 放过去
+      next();
+    }
+  }
+});
+
+export default router;
+```
+
 
 
 
