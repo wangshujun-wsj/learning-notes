@@ -12,7 +12,8 @@ router/index.js 中配置
       // id 为自定义,可根据自己的情况更改 如 '/hello/:name
         path: '/hello/:id',
         component: () =>
-          import('@/components/router/hello')
+          import('@/components/router/hello'),
+        props: true   // 这个参数为true表示把 :id这个参数放到页面的props属性中
       }
 ```
 html使用
@@ -43,7 +44,7 @@ html使用
 获取URL中
 /hello/:id 中的id的结果,使用this.$route.params.id获取
 '/hello/:name'  使用this.$route.params.name获取
-
+如果 路由中使用了props: true,那么可以使用props里定义同名变量的形式获取,然后直接当做props的普通属性一样使用
 # 嵌套路由
 router/index.js 中配置
 **注意 子路由的path写法**
