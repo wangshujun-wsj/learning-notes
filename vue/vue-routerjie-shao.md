@@ -246,7 +246,6 @@ export default router;
 ## 路由独享守卫
 配置在路由列表的具体路由中
 
-
 ```
 {
     path: '/about',
@@ -263,6 +262,32 @@ export default router;
     }
   }
 ```
+## 组件内守卫
+
+
+```
+beforeRouteEnter(to, from, next) {
+    console.log("这里不能使用this,因为还没有进入本页面");
+    next(vm => {
+      // vm 就是this
+      console.log(vm)
+    });
+  },
+  beforeRouteUpdate(to, from, next) {
+    // 可以使用this对象
+    console.log("动态路由改变 :id 时可触发")
+  },
+  beforeRouteLeave(to, from, next) {
+    // 可以使用this对象
+    const leave = confirm("确定离开");
+    if (leave) {
+      next();
+    } else {
+      next(false);
+    }
+  }
+```
+
 
 
 
