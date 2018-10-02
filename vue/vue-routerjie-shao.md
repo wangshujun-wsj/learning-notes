@@ -217,7 +217,7 @@ const HAS_LOGIN = true;
 const router = new Router({
   routes
 });
-
+// 前置守卫
 router.beforeEach((to, from, next) => {
   // 不是登录页面
   if(to.path !=='/login') {
@@ -240,7 +240,10 @@ router.beforeEach((to, from, next) => {
     }
   }
 });
-
+// 后置守卫
+router.afterEach((to, from) => {
+  
+})
 export default router;
 ```
 ## 路由独享守卫
@@ -277,6 +280,7 @@ beforeRouteEnter(to, from, next) {
     // 可以使用this对象
     console.log("动态路由改变 :id 时可触发")
   },
+  // 离开守卫
   beforeRouteLeave(to, from, next) {
     // 可以使用this对象
     const leave = confirm("确定离开");
@@ -287,8 +291,20 @@ beforeRouteEnter(to, from, next) {
     }
   }
 ```
+## 完整的导航流程
 
-
+1. 导航被触发
+2. 在失活的组件(即将离开的页面组件)里调用离开守卫 beforeRouteLeave
+3. 调用全局的前置守卫 beforeEach
+4. 在重用的组件里调用 beforeRouterUpdate (如果是重用的)
+5. 调用路由独享的守卫 beforeEnter
+6. 解析异步路由组件
+7. 在被激活的组件(即将进入的页面组件)里调用beforeRouteEnter
+8. 调用全局的解析守卫 beforeResolve
+9. 导航被确认
+10. 调用全局的后置守卫 afterEach
+11. 触发DOM更新
+12. 用创建好的实例调用beforeRouterEnter守卫里传给next的回调函数
 
 
 
