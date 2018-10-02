@@ -306,6 +306,54 @@ beforeRouteEnter(to, from, next) {
 11. 触发DOM更新
 12. 用创建好的实例调用beforeRouterEnter守卫里传给next的回调函数
 
+# 路由元信息
+使用元信息meta 修改页面的title
+
+
+路由列表里添加meta信息 router/router.js
+```
+{
+    path: '/about',
+    name: 'about',
+    component: () => import('../views/About.vue'),
+    beforeEnter: (to, from, next) => {
+      if(from.path === '/login') {
+        console.log("这是从登录页过来的")
+      }
+      next();
+    },
+    meta: {
+      title: '关于'
+    }
+  }
+```
+在src/lib/util.js
+
+
+```
+export const setTitle = title => {
+  window.document.title = title || 'admin';
+}
+```
+在router/index.js
+
+
+```
+import setTitle from '../lib/util'
+router.beforeEach((to, from, next) => {
+  // 设置title
+  to.meta && setTitle(to.meta.title);
+  
+  // 不是登录页面
+  if(to.path !=='/login') {
+    ....
+  }
+});
+
+```
+
+
+
 
 
 
