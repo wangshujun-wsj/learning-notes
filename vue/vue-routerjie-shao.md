@@ -147,6 +147,31 @@ router-link 中使用 query或 params进行传参
           router-link params传参路由</router-link>
       </h2>
 ```
+路由参数放到props里
+
+```
+{
+  path: '/',
+  ......,
+  props: route => ({
+    food: route.query.food
+  })
+}
+
+
+.vue页面
+
+直接使用props获取,这样路由里的参数就赋值给props里了
+props: {
+  food: {
+    ......
+  }
+}
+
+```
+
+
+
 # 命名路由
 
 app.vue
