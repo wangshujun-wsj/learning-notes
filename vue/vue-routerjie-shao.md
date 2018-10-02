@@ -146,6 +146,37 @@ router-link 中使用 query或 params进行传参
           router-link params传参路由</router-link>
       </h2>
 ```
+# 命名路由
+
+app.vue
+
+
+```
+<div>
+<header></header>
+<router-view/>
+<router-view name='email'/>
+<router-view name='tel'/>
+
+</div>
+```
+路由文件
+
+在components 中定义位置,default渲染到没有name属性的router-view上,其他渲染到对应的name上
+```
+{
+  path:'/named',
+  components: {
+    default: () => import('/components/router/hello'),
+    email: () => import('/components/router/email'),
+    tel: () => import('/components/router/tel')
+  }
+}
+```
+
+
+
+
 
 # 匹配优先级
 有时候，同一个路径可以匹配多个路由，此时，匹配的优先级就按照路由的定义顺序：谁先定义的，谁的优先级就最高。
