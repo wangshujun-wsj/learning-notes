@@ -46,6 +46,7 @@ html使用
 
 # 嵌套路由
 router/index.js 中配置
+**注意 子路由的path写法**
 在需要使用嵌套子路由的路由里使用 children,将子路由配置在children
 子路由会渲染在父路由html中的router-view的位置
 ```
