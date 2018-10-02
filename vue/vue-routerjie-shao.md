@@ -200,6 +200,7 @@ app.vue
 }
 ```
 # 路由守卫
+## 全局路由守卫
 比如登录验证在router/index.js中
 
 例子里面是把路由分成了多个页面
@@ -242,6 +243,27 @@ router.beforeEach((to, from, next) => {
 
 export default router;
 ```
+## 路由独享守卫
+配置在路由列表的具体路由中
+
+
+```
+{
+    path: '/about',
+    name: 'about',
+    component: () => import('../views/About.vue'),
+    
+    beforeEnter: (to, from, next) => {
+      if(from.path === '/login') {
+        console.log("这是从登录页过来的")
+      } else {
+        console.log("这不是从登录页过来的")
+      }
+      next();
+    }
+  }
+```
+
 
 
 
