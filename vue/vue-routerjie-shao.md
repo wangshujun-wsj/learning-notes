@@ -57,7 +57,8 @@ router/index.js 中配置
     children: [
       {
         // id 为自定义,可根据自己的情况更改 如 '/hello/:name
-        path: '/hello/:id',
+        path: '/hello/:id',//这个访问时url是 /hello/:id   
+        // path: 'hello/:id, // 这个访问时url是 /router/hello/:id   
         component: () =>
           import('@/components/router/hello')
       }
