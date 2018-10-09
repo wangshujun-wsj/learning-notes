@@ -37,6 +37,14 @@ vue ui
 等待安装完成即可
 ![](/assets/vue-cli3/正在安装依赖.png)
 
+## vue-cli2 和 vue-cli3 都安装使用
+全局安装桥接工具
+
+```
+
+npm install -g @vue/cli-init
+```
+
 
 
 
