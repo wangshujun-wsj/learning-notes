@@ -40,6 +40,7 @@ console.log(p2) // -> ?
 
 ## typeof
 能检测出七种类型，值类型中null的结果是object，引用类型中出来函数显示为Function,其他都是object，所以能检测出七种（5个值类型对应的+1个object+1个Function
+
 | type| 结果 |
 |-----|-----|-----|
 |typeof 123| number|
