@@ -148,7 +148,7 @@ result.foo(4).foo(5);
 ```
 [] == ![]  // 
 ```
-
+=== 就是判断两者类型和值是否相同
 
 # let var const
 let 、const与var的区别
