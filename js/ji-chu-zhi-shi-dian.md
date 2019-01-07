@@ -52,3 +52,20 @@ console.log(p2) // -> ?
 |typeof null| object |
 |typeof [1,2]| object |
 |typeof {}| object |
+
+## instanceof
+
+
+## 判断对象变量到底是什么类型
+
+```
+function is(type, obj) {
+    var clas = Object.prototype.toString.call(obj).slice(8, -1);
+    return obj !== undefined && obj !== null && clas === type;
+}
+
+is('String', 'test'); // true
+is('String', new String('test')); // true
+```
+
+
