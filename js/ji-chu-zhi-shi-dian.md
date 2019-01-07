@@ -90,5 +90,26 @@ Object.prototype.toString.call(2)    // "[object Number]"
 4. new foo()     在函数内部，this 指向新创建的对象。
 5. 当使用 Function.prototype 上的 call 或者 apply 方法时，函数内的 this 将会被 显式设置为函数调用的第一个参数。
 
+```
+function a() {
+  return () => {
+    return () => {
+      console.log(this)
+    }
+  }
+}
+console.log(a()()())
+```
+首先箭头函数其实是没有 this 的，箭头函数中的 this 只取决包裹箭头函数的第一个普通函数的 this。在这个例子中，因为包裹箭头函数的第一个普通函数是 a，所以此时的 this 是 window。另外对箭头函数使用 bind 这类函数是无效的。
+
+
+```
+let a = {}
+let fn = function () { console.log(this) }
+fn.bind().bind(a)() // => ?
+```
+可以从上述代码中发现，不管我们给函数 bind 几次，fn 中的 this 永远由第一次 bind 决定，所以结果永远是 window。
+
+
 
 
