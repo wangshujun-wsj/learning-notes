@@ -54,6 +54,17 @@ console.log(p2) // -> ?
 |typeof {}| object |
 
 ## instanceof
+instanceof运算符用于测试构造函数的prototype属性是否出现在对象的原型链中的任何位置
+
+
+```
+[1, 2] instanceof Array
+const Person = function() {}
+const p1 = new Person()
+p1 instanceof Person
+```
+instanceof更多是用来检测自定义对象
+
 
 
 ## 判断对象变量到底是什么类型的方法
