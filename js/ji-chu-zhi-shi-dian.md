@@ -39,14 +39,15 @@ console.log(p2) // -> ?
 按值传递的类型，复制一份存入栈内存，这类类型一般不占用太多内存，而且按值传递保证了其访问速度。按共享传递的类型，是复制其引用，而不是整个复制其值（C 语言中的指针），保证过大的对象等不会因为不停复制内容而造成内存的浪费
 
 ## typeof
+能检测出七种类型
 | type| 结果 |
 |-----|-----|-----|
 |typeof 123| number|
 |typeof '123'| string |
 |typeof true| boolean |
 |typeof undefined| undefined |
-||
+|typeof Symbol()| symbol |
+|typeof function| Function |
 |typeof null| object |
 |typeof [1,2]| object |
 |typeof {}| object |
-|typeof function| Function |
