@@ -112,5 +112,5 @@ fn.bind().bind(a)() // => ?
 
 
 # let var const
-let 声明的变量不会挂在window上，var声明的会
+全局作用域中，let 声明的变量不会挂在window上，var声明的会
 
