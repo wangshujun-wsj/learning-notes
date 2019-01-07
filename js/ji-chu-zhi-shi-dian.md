@@ -83,4 +83,12 @@ Object.prototype.toString.call(2)    // "[object Number]"
 # 类型转换
 ![](/assets/js基础知识/类型转换.jpg)
 # this
+## this的绑定规则：
+1. 在非严格模式下，默认绑定的this指向全局对象，严格模式下this指向undefined
+2. 函数调用  foo() 这里的this也会指向全局对象
+3. test.foo()    this指向test对象,  指向调用者
+4. new foo()     在函数内部，this 指向新创建的对象。
+5. 当使用 Function.prototype 上的 call 或者 apply 方法时，函数内的 this 将会被 显式设置为函数调用的第一个参数。
+
+
 
