@@ -80,5 +80,5 @@ Object.prototype.toString.call([])    // "[object Array]"
 Object.prototype.toString.call({})    // "[object Object]"
 Object.prototype.toString.call(2)    // "[object Number]"
 ```
-
+# 类型转换
 
