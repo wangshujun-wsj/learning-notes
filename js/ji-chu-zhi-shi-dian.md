@@ -47,3 +47,6 @@ console.log(p2) // -> ?
 |typeof undefined| undefined |
 ||
 |typeof null| object |
+|typeof [1,2]| object |
+|typeof {}| object |
+|typeof function| Function |
