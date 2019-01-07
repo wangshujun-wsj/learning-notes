@@ -111,6 +111,39 @@ fn.bind().bind(a)() // => ?
 可以从上述代码中发现，不管我们给函数 bind 几次，fn 中的 this 永远由第一次 bind 决定，所以结果永远是 window。
 
 
+```
+var foo=function(m,n){
+ console.log(n);
+return {
+    foo:function(o){
+      console.log(o);
+      return foo(o,m);
+    }
+  }
+}
+
+
+//问题一:
+var result=foo(1);
+result.foo(2);
+result.foo(3);
+result.foo(4);
+
+
+//问题二:
+var result=foo(2).foo(3).foo(4).foo(5);
+
+
+//问题三:
+var result=foo(1);
+result.foo(2).foo(3);
+result.foo(4).foo(5);
+
+//问题一二三分别输出什么？ 说出执行步骤
+```
+
+
+
 # let var const
 全局作用域中，let 声明的变量不会挂在window上，var声明的会
 
