@@ -65,8 +65,6 @@ p1 instanceof Person
 ```
 instanceof更多是用来检测自定义对象
 
-
-
 ## 判断对象变量到底是什么类型的方法
 
 ```
