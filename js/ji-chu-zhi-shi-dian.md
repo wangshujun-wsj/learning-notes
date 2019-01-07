@@ -111,5 +111,6 @@ fn.bind().bind(a)() // => ?
 可以从上述代码中发现，不管我们给函数 bind 几次，fn 中的 this 永远由第一次 bind 决定，所以结果永远是 window。
 
 
-
+# let var const
+let 声明的变量不会挂在window上，var声明的会
 
