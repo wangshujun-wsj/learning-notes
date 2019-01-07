@@ -56,7 +56,7 @@ console.log(p2) // -> ?
 ## instanceof
 
 
-## 判断对象变量到底是什么类型
+## 判断对象变量到底是什么类型的方法
 
 ```
 function is(type, obj) {
