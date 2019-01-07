@@ -66,6 +66,10 @@ function is(type, obj) {
 
 is('String', 'test'); // true
 is('String', new String('test')); // true
+Object.prototype.toString 返回一种标准格式字符串，所以上例可以通过 slice 截取指定位置的字符串，如下所示：
+Object.prototype.toString.call([])    // "[object Array]"
+Object.prototype.toString.call({})    // "[object Object]"
+Object.prototype.toString.call(2)    // "[object Number]"
 ```
 
 
