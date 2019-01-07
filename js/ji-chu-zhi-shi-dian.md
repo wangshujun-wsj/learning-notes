@@ -81,4 +81,6 @@ Object.prototype.toString.call({})    // "[object Object]"
 Object.prototype.toString.call(2)    // "[object Number]"
 ```
 # 类型转换
+![](/assets/js基础知识/类型转换.jpg)
+# this
 
