@@ -59,6 +59,7 @@ console.log(p2) // -> ?
 ## 判断对象变量到底是什么类型
 
 
+
 ```
 function is(type, obj) {
     var clas = Object.prototype.toString.call(obj).slice(8, -1);
