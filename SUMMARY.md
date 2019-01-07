@@ -62,5 +62,6 @@
     * [4 作用域链](jue-jin-hu-yu-xue-xi-bi-ji/4-zuo-yong-yu-lian.md)
     * [5 this](jue-jin-hu-yu-xue-xi-bi-ji/5-this.md)
   * [面向对象](js/mian-xiang-dui-xiang.md)
+  * [基础知识点](js/ji-chu-zhi-shi-dian.md)
 * [http](http.md)
 
