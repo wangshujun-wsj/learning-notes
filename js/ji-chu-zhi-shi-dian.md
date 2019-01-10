@@ -232,3 +232,5 @@ JSON.parse(JSON.stringify(object))
 
 # 原型链
 当试图得到一个对象的某个属性时，如果这个对象本身没有这个属性，那么会去它的__proto__（即它的构造函数的prototype）中寻找，没有找到，还会继续往上找。这样一直往上找，你会发现是一个链式的结构，所以叫做“原型链”。如果一直找到最上层都没有找到，那么就宣告失败，返回undefined。最上层是什么 —— Object.prototype.__proto__ === null
+![](/assets/js基础知识/原型链.jpg)
+
