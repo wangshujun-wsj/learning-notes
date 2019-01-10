@@ -198,4 +198,11 @@ fn3();
 
 4. 执行fn3，输出了变量name
 
-
+###循环中使用闭包解决 `var` 定义函数的问题
+for (var i = 1; i <= 5; i++) {
+  (function(j) {
+    setTimeout(function timer() {
+      console.log(j)
+    }, j * 1000)
+  })(i)
+}
