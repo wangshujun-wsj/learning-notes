@@ -25,7 +25,7 @@ methods中定义
       }
 ```
 
-在methods同级定义provide 
+在methods同级定义provide
 
 ```
     provide () {
@@ -40,6 +40,8 @@ methods中定义
 ```
 inject: ['refresh']
 ```
+
+![](file:///C:\Users\wang\AppData\Roaming\Tencent\Users\1098803106\QQ\WinTemp\RichOle\48T6U~CWR]N[JBF~0%286{C]H.png)
 
 
 
