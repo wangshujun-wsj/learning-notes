@@ -28,6 +28,7 @@
     * [vue新手引导程序intro.js](vue/vuegong-zuo-xiang-mu-bi-ji/vuexin-shou-yin-dao-cheng-xu-intro-js.md)
     * [vue插件 devtools](vue/vuegong-zuo-xiang-mu-bi-ji/vuecha-jian-devtools.md)
     * [vue刷新当前页面](vue/vuegong-zuo-xiang-mu-bi-ji/vueshua-xin-dang-qian-ye-mian.md)
+    * [vue 锚点导航](vue/vuegong-zuo-xiang-mu-bi-ji/vue-mao-dian-dao-hang.md)
   * [axios](vue/axios.md)
     * [axios与springmvc](vue/axios/axiosyu-springmvc.md)
   * [vue-cli 3搭建vue](vue/vue-cli-3da-jian-vue.md)
