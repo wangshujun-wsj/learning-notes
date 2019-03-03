@@ -50,7 +50,7 @@
   * [css图片放大](shi-li-demo/csstu-pian-fang-da.md)
   * [css镜像导航栏](shi-li-demo/cssjing-xiang-dao-hang-lan.md)
 * [js](js.md)
-  * [跨域](js/kua-yu.md)
+  * [通信](js/kua-yu.md)
   * [for in 和 for of](js/for-in-he-for-of.md)
   * [前端安全问题](js/qian-duan-an-quan-wen-ti.md)
   * [Promise](js/promise.md)
