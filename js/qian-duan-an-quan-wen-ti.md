@@ -8,7 +8,5 @@
 
 原理：用户登录网站A，会在浏览器保存cookie，当用户访问网站b时，网站b引诱用户点击访问网站A的具有漏洞的接口，访问接口上传cookie，网站A对用户身份重新确认，任发现是合法用户就执行了方法。
 
-![](file:///C:\Users\wang\AppData\Roaming\Tencent\Users\1115693174\QQ\WinTemp\RichOle\5OY[L6%29WJ{MJNWO$82VM[DM.png)
-
-
+![](/assets/js基础知识/5OY[L6%29WJ{MJNWO$82VM[DM.png)
 
