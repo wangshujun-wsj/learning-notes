@@ -288,7 +288,9 @@ var o4 = Object.create(p);
 ![](file:///C:\Users\wang\AppData\Roaming\Tencent\Users\1115693174\QQ\WinTemp\RichOle\J0TQD4E%29QADQQAA2FTK7TAO.png)  
 ![](/assets/js基础知识/原型链.jpg)
 
-new 运算符
+# new 运算符
 
-![](file:///C:\Users\wang\AppData\Roaming\Tencent\Users\1115693174\QQ\WinTemp\RichOle\F%2940[QR2M8Y]FI3`Y%29772R5.png)
+![](file:///C:\Users\wang\AppData\Roaming\Tencent\Users\1115693174\QQ\WinTemp\RichOle\F%2940[QR2M8Y]FI3`Y%29772R5.png)new 运算符实现原理
+
+![](file:///C:\Users\wang\AppData\Roaming\Tencent\Users\1115693174\QQ\WinTemp\RichOle\7@%29BQ{$J94%291TV`3U]{K8@9.png)
 
