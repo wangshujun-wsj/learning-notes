@@ -294,3 +294,11 @@ var o4 = Object.create(p);
 
 ![](file:///C:\Users\wang\AppData\Roaming\Tencent\Users\1115693174\QQ\WinTemp\RichOle\7@%29BQ{$J94%291TV`3U]{K8@9.png)
 
+# 继承
+
+## 构造函数继承
+
+原理： 将父级的this指向到子类上面
+
+
+
