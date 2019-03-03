@@ -341,15 +341,8 @@ function Child() {
     this.age = 22;
 }
 Child.prototype = Object.create(Person.prototype);
+Child.prototype.construct = Child;
 ```
-
-
-
-
-
-
-
-
 
 
 
