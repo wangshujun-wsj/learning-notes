@@ -301,7 +301,13 @@ var o4 = Object.create(p);
 原理： 将父级的构造函数this指向到子类构造函数this上面
 
 ```
-
+function Person() {
+    this.name = "person";
+}
+function Child() {
+    Person.call(this);
+    this.age = 22;
+}
 ```
 
 缺点： 父级的原型链上的变量和方法无法继承过来
@@ -309,6 +315,41 @@ var o4 = Object.create(p);
 ## 原型链继承
 
 原理： 子类的原型（prototype）等于父类实例
+
+```
+function Person() {
+    this.name = "person";
+}
+function Child() {
+    this.age = 22;
+}
+Child.prototype = Person.prototype;
+```
+
+缺点： 原型中所有属性是被很多实例共享的，共享对于函数非常合适，对于包含基本值的属性 也还可以。但如果属性包含引用类型就会导致改变一个就是改变所有。
+
+## 组合继承
+
+原理： 不共享的使用构造函数，共享的使用原型链，子类的原型等于Object.create\(父类原型\)，同时覆盖子类原型的construct 。（使用new Person \(\) 会造成父类构造函数执行两遍。不能将父类的原型链（prototype）直接赋值给子类，会造成实例无法区分是使用子类还是父类创建的，因为是同一个prototype。Object.create\(\) 会创建一个中间对象，将父类和子类隔离）
+
+```
+function Person() {
+    this.name = "person";
+}
+function Child() {
+    Person.call(this);
+    this.age = 22;
+}
+Child.prototype = Object.create(Person.prototype);
+```
+
+
+
+
+
+
+
+
 
 
 
