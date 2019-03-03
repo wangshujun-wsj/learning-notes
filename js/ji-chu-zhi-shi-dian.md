@@ -258,6 +258,29 @@ JSON.parse\(JSON.stringify\(object\)\)
 * 所有的函数，都有一个prototype属性，属性值也是一个普通的对象
 * 所有的引用类型（数组、对象、函数），**proto**属性值指向它的构造函数的prototype属性值
 
+创建原型的三种方式：
+
+第一种：字面量
+
+```
+var o1 = {name: '01}
+var o2 = new Object({name: 'o2'});
+```
+
+第二种：构造函数
+
+```
+function Person(name) {this.name = name;}
+var o3 = new M('o3');
+```
+
+第三种：Object.create
+
+```
+var p = {name: 'p'};
+var o4 = Object.create(p);
+```
+
 # 原型链
 
 当试图得到一个对象的某个属性时，如果这个对象本身没有这个属性，那么会去它的**proto**（即它的构造函数的prototype）中寻找，没有找到，还会继续往上找。这样一直往上找，你会发现是一个链式的结构，所以叫做“原型链”。如果一直找到最上层都没有找到，那么就宣告失败，返回undefined。最上层是什么 —— Object.prototype.**proto** === null  
