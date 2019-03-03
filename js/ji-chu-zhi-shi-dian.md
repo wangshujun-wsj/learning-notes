@@ -308,7 +308,7 @@ var o4 = Object.create(p);
 
 ## 原型链继承
 
-
+原理： 子类的原型（prototype）等于父类实例
 
 
 
