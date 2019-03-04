@@ -15,6 +15,7 @@
   * [vue 原理学习源码学习](vue/vue-yuan-li-xue-xi-yuan-ma-xue-xi.md)
     * [js正则处理v-bind和语法](vue/vue-yuan-li-xue-xi-yuan-ma-xue-xi/jszheng-ze-chu-li-v-bind-he-yu-fa.md)
     * [双向绑定](vue/vue-yuan-li-xue-xi-yuan-ma-xue-xi/shuang-xiang-bang-ding.md)
+    * [虚拟dom](vue/vue-yuan-li-xue-xi-yuan-ma-xue-xi/xu-ni-dom.md)
   * [vue工作项目笔记](vue/vuegong-zuo-xiang-mu-bi-ji.md)
     * [elementUI 表格分页多选记忆功能](vue/vuegong-zuo-xiang-mu-bi-ji/elementui-biao-ge-fen-ye-duo-xuan-ji-yi-gong-neng.md)
     * [elementUI表格展开一行](vue/vuegong-zuo-xiang-mu-bi-ji/elementuibiao-ge-zhan-kai-yi-xing.md)
