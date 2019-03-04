@@ -65,7 +65,7 @@
     * [5 this](jue-jin-hu-yu-xue-xi-bi-ji/5-this.md)
   * [面向对象](js/mian-xiang-dui-xiang.md)
   * [基础知识点](js/ji-chu-zhi-shi-dian.md)
-  * 渲染机制
+  * [渲染机制](js/xuan-ran-ji-zhi.md)
 * [http](http.md)
 * [css](css.md)
   * [基础知识](css/ji-chu-zhi-shi.md)
