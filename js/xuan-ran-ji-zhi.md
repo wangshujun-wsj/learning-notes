@@ -4,7 +4,7 @@
 
 ## 重绘 Repaint
 
-## 
+## ![](/assets/js/重绘 Repaint.png)
 
 
 
