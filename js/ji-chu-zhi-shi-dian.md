@@ -285,13 +285,15 @@ var o4 = Object.create(p);
 
 当试图得到一个对象的某个属性时，如果这个对象本身没有这个属性，那么会去它的**proto**（即它的构造函数的prototype）中寻找，没有找到，还会继续往上找。这样一直往上找，你会发现是一个链式的结构，所以叫做“原型链”。如果一直找到最上层都没有找到，那么就宣告失败，返回undefined。最上层是什么 —— Object.prototype.**proto** === null
 
-
+![](/assets/js基础知识/原型链1.png)
 
 ![](/assets/js基础知识/原型链.jpg)
 
 # new 运算符
 
 new 运算符实现原理
+
+![](/assets/js基础知识/new 运算符原理.png)
 
 ![](file:///C:\Users\wang\AppData\Roaming\Tencent\Users\1115693174\QQ\WinTemp\RichOle\7@%29BQ{$J94%291TV`3U]{K8@9.png)
 
