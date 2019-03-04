@@ -290,7 +290,9 @@ var o4 = Object.create(p);
 
 # new 运算符
 
-![](file:///C:\Users\wang\AppData\Roaming\Tencent\Users\1115693174\QQ\WinTemp\RichOle\F%2940[QR2M8Y]FI3`Y%29772R5.png)new 运算符实现原理
+new 运算符实现原理
+
+![](/assets/09SDP%}]0TFJ%28~B{2R%28M31C.png)
 
 ![](file:///C:\Users\wang\AppData\Roaming\Tencent\Users\1115693174\QQ\WinTemp\RichOle\7@%29BQ{$J94%291TV`3U]{K8@9.png)
 
