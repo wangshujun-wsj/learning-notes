@@ -7,9 +7,7 @@
 
   接上面的例子，jQuery是操作数据和dom使得视图改变，而vue的方式只是对数据进行处理，视图便会根据数据的结果进行相应改变
 
-## mvvm
+## mvvm![](/assets/vue/mvvm.png)
 
-
-
-
+mvvm是 Model、 View、 ViewModel，Model就是js对象，View就是DOM，ViewModel这里是vue，ViewModel用来连接View和Model。View通过dom事件经过ViewModel对Model里的数据进行操作，Model通过数据绑定经过ViewModel对View进行页面显示处理。比如v-show 和一个带click的添加按钮，当点击View视图里面的click事件时，View视图通过ViewModel里的方法改变Model数据中的变量，当变量修改，Model数据通过ViewModel将变量的改变显示的View中，控制v-show的显示和隐藏
 
