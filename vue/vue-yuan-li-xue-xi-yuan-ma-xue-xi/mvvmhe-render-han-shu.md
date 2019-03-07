@@ -15,15 +15,9 @@ mvvm是 Model、 View、 ViewModel，Model就是js对象，View就是DOM，ViewM
 
 ### 响应式：vue如何监听到data的每个属性变化？
 
-
-
-
+vue通过Object.defineProperty方法给数据添加get和set方法进行监听
 
 ### 模板引擎：vue的模板如何被解析，指令如何处理？
-
-
-
-
 
 ### 渲染：vue的模板如何被渲染成html？以及渲染过程？
 
