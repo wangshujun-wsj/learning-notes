@@ -24,9 +24,12 @@ IE:
 
 * jsonp   只能在get请求上
 
-          实现原理是使用script的跨域加载
+  ```
+      实现原理是使用script的跨域加载
+  ```
 
 * CORS        [http://www.ruanyifeng.com/blog/2016/04/cors.html](http://www.ruanyifeng.com/blog/2016/04/cors.html)
+
 * 代理
 * 使用HTML5中新引进的window.postMessage方法来跨域传送数据
 
@@ -50,13 +53,13 @@ localstorage和indexDB以源进行分割，每个源都拥有自己单独的存�
 
 dom无法获取，ajax请求不能发送
 
+
+
 ## 前后端通信
 
 1. ajax
 2. websocket
 3. cors
-
-
 
 
 
