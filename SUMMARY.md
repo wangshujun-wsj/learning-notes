@@ -68,6 +68,8 @@
   * [面向对象](js/mian-xiang-dui-xiang.md)
   * [基础知识点](js/ji-chu-zhi-shi-dian.md)
   * [渲染机制](js/xuan-ran-ji-zhi.md)
+  * [其他](js/qi-ta.md)
+    * [判断是否为数组](js/qi-ta/pan-duan-shi-fou-wei-shu-zu.md)
 * [http](http.md)
 * [css](css.md)
   * [基础知识](css/ji-chu-zhi-shi.md)
